@@ -109,7 +109,7 @@ class TagAttributeHandler( object ):
                     elem_altered = True
                 new_elem[ sub_index ] = new_sub_elem
         return elem_altered, new_elem, message
-        
+
     def process_config( self, root, skip_actions_tags=True ):
         error_message = ''
         new_root = copy.deepcopy( root )
