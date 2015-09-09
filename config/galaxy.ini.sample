@@ -170,7 +170,7 @@ paste.app_factory = galaxy.web.buildapp:app_factory
 #   https://wiki.galaxyproject.org/Admin/Config/ToolDependencies
 # If this option is not set to a valid path, installing tools with dependencies
 # from the Tool Shed will fail.
-#tool_dependency_dir = None
+#tool_dependency_dir = dependency_dir
 
 # File containing the Galaxy Tool Sheds that should be made available to
 # install from in the admin interface (.sample used if default does not exist).
@@ -797,7 +797,7 @@ use_interactive = True
 # of the server, and will have access to create users, groups, roles,
 # libraries, and more.  For more information, see:
 #   https://wiki.galaxyproject.org/Admin/Interface
-#admin_users = None
+#admin_users = matthew.birnie@bristol.ac.uk
 
 # Force everyone to log in (disable anonymous access).
 #require_login = False
